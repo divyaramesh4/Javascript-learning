@@ -1,0 +1,13 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+#label{
+    font-size: 5em;
+    display: inline;
+}
+
+#myroll{
+    padding: 5px 5px;
+    font-size: 3em;
+}
