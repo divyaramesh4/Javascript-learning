@@ -21,6 +21,8 @@ const num = [1,2,3,4,5,6,7]
 
 const squares = num.map((element) => Math.pow(element,2))
 const cubes = num.map((element) => Math.pow(element,3))
-const evenNums = num.filter((element) => element%2 == 0)
-console.log(evenNums)
+const evenNums = num.filter((element) => element%2 === 0)
+const oddNums = num.filter((element) => element%2 !== 0)
+
+console.log(oddNums)
 
